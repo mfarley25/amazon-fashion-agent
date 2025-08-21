@@ -3,7 +3,7 @@ import smtplib
 import asyncio
 from email.mime.text import MIMEText
 from playwright.async_api import async_playwright
-from langchain.chat_models import ChatOpenAI
+from from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 # -----------------------------
@@ -120,3 +120,4 @@ def run_agent():
 
 if __name__ == "__main__":
     run_agent()
+
